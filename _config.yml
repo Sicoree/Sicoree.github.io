@@ -65,7 +65,7 @@ toc: true       # toc(Table of contents)입니다. 블로그 보시다 보면 �
 
 disqus:
   comments: true  # disqus라는 덧글기능을 하는 녀석입니다. 사용하시려면 true, 아니라면 false를 적으시면 됩니다.
-  shortname: 'Sicoree-EE'    # 사용하신다면 https://disqus.com/ 에 가입 후, shortname을 넣어줍니다.
+  shortname: 'Sicoree'    # 사용하신다면 https://disqus.com/ 에 가입 후, shortname을 넣어줍니다.
 
 paginate: 10   
 
