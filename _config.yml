@@ -49,7 +49,7 @@ google_site_verification: 000 # Google Search Console관련 내용입니다. 이
 
 
 google_analytics:
-  id: '000'              # Google Analytics ID입니다. 이 또한 이후 포스팅에서 다루겠습니다.
+  id: 'UA-249200019-1'              # Google Analytics ID입니다. 이 또한 이후 포스팅에서 다루겠습니다.
   pv:           
     proxy_endpoint:   
     cache_path:       
