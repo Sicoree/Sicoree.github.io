@@ -63,9 +63,9 @@ avatar: /assets/img/wind.png     # 대표이미지 라고 생각하시면 됩니
 toc: true       # toc(Table of contents)입니다. 블로그 보시다 보면 포스팅 옆에서 스크롤을 따라오는 목차같은 녀석이 있습니다.
                 # 사용하시려면 true, 아니라면 false를 적으시면 됩니다.
 
-disqus:
-  comments: true  # disqus라는 덧글기능을 하는 녀석입니다. 사용하시려면 true, 아니라면 false를 적으시면 됩니다.
-  shortname: 'Sicoree'    # 사용하신다면 https://disqus.com/ 에 가입 후, shortname을 넣어줍니다.
+# disqus:
+#   comments: true  # disqus라는 덧글기능을 하는 녀석입니다. 사용하시려면 true, 아니라면 false를 적으시면 됩니다.
+#   shortname: 'Sicoree'    # 사용하신다면 https://disqus.com/ 에 가입 후, shortname을 넣어줍니다.
 
 paginate: 10   
 
