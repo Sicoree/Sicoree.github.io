@@ -275,12 +275,8 @@ public enum ResultCode {
 }
 ```
 
-
-
 도메인 내에 있는 API마다 응답 결과를 위와 같이 세부적으로 정의할 수 있다.  
 Controller 계층에선 다음과 같이 앞서 정의한 `ResultResponse`를 `ResponseEntity`에 담아 반환하면 된다.
-
-
 
 ```java
 @ApiOperation(value = "회원 프로필 조회")
@@ -297,10 +293,6 @@ public ResponseEntity<ResultResponse> getUserProfile(@ApiIgnore Authentication a
 }
 ```
 
-
-
-
-
 ---
 
-참고 : https://velog.io/@songs4805/Exception-Handling%EA%B3%BC-Response-%EC%BD%94%EB%93%9C-%EA%B0%9C%EC%84%A0
+참고 : [https://velog.io/@songs4805/Exception-Handling%EA%B3%BC-Response-%EC%BD%94%EB%93%9C-%EA%B0%9C%EC%84%A0](https://velog.io/@songs4805/Exception-Handling%EA%B3%BC-Response-%EC%BD%94%EB%93%9C-%EA%B0%9C%EC%84%A0)
