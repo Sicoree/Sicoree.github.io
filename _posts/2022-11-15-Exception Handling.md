@@ -92,7 +92,7 @@ public enum ErrorCode {
     AUTHORITY_INVALID(403, "U004", "권한이 없습니다."),
     ACCOUNT_MISMATCH(401, "U005", "계정 정보가 일치하지 않습니다."),
 
-    // 중략 ...
+// 중략 ...
 
     ;
 
@@ -265,7 +265,7 @@ public enum ResultCode {
     GET_REPORT_SUCCESS(200, "T008", "리포트 조회에 성공하였습니다."),
     GET_REPORT_TOTALTIME_SUCCESS(200, "T009", "리포트 총 시간 조회에 성공하였습니다."),
 
-    // 중
+// 중략...
 
     ;
 
