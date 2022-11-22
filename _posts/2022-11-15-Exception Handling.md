@@ -63,7 +63,7 @@ public class ErrorResponse {
 
 + 일반적인 예외 핸들링
 
-+ 데이터 유효성 검사 실패시 발생하는 에외에서 실패 정보를 담고 있는 `ConstraintViolation`를 가져오는 경우
++ 데이터 유효성 검사 실패시 발생하는 예외에서 실패 정보를 담고 있는 `ConstraintViolation`를 가져오는 경우
 
 # ErrorCode 정의
 
@@ -148,7 +148,7 @@ public class BusinessException extends RuntimeException {
 
 이 `BusinessException`을 상속받은 세부적인 예외들은 도메인 내에서 예외가 발생할만한 부분마다 디테일하게 처리할 수 있다는 장점이 있다. 다만, 해당 예외 케이스들을 직접 한땀한땀 정의해야 하기 때문에 클래스가 많아질 수 있다는 점이 단점이라 할 수 있다.
 
-다음은 이미 존재하는 entity에 대해 발생하는 예외를 처리하기 위한 클래스를 정의한 코드이다. 다른 디테일한 에외 클래스들도 이와 같은 형식으로 정의하면 된다.
+다음은 이미 존재하는 entity에 대해 발생하는 예외를 처리하기 위한 클래스를 정의한 코드이다. 다른 디테일한 예외 클래스들도 이와 같은 형식으로 정의하면 된다.
 
 ```java
 public class EntityAlreadyExistException extends BusinessException {
@@ -159,7 +159,7 @@ public class EntityAlreadyExistException extends BusinessException {
 }
 ```
 
-결론적으론 서버 내부 코드에서 에외가 발생할 여지가 있다면 Exception을 발생시키고 위처럼 미리 정의한 에외 핸들링을 탈 수 있도록 설계하는 방식이다.
+결론적으론 서버 내부 코드에서 예외가 발생할 여지가 있다면 Exception을 발생시키고 위처럼 미리 정의한 예외 핸들링을 탈 수 있도록 설계하는 방식이다.
 
 # API Response
 
