@@ -2,7 +2,7 @@
 title: Exception Handling 
 author: Sicoree EE
 date: 2022-11-15 15:21:00 +0900
-categories: [Spring Boot]
+categories: [Spring Boot, Refactoring]
 tags: [Spring Boot, Refactoring]
 
 ---

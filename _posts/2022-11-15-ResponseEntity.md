@@ -2,7 +2,7 @@
 title: ResponseEntity 사용법, 사용이유
 author: Sicoree EE
 date: 2022-11-15 13:49:00 +0900
-categories: [Spring Boot]
+categories: [Spring Boot, Refactoring]
 tags: [Spring Boot, Refactoring]
 
 ---
