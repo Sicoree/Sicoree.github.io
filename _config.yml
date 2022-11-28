@@ -19,7 +19,7 @@ description: >-                        # "used by seo meta and the atom feed"라
   bootstrap Jekyll theme with responsive web design
   and focuses on text presentation.
 
-url: 'https://Sicoree.github.io'    # 'https://username.github.io'와 같이 설정합니다. 설정이 잘 못 되면 곤란합니다. 
+url: 'https://sicoree.github.io'    # 'https://username.github.io'와 같이 설정합니다. 설정이 잘 못 되면 곤란합니다. 
                                         # 잘 적어넣도록 합니다.
 
 github:
